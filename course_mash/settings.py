@@ -15,7 +15,7 @@ SECRET_KEY = 'df+v))%gr=b^-g^(c=vkka7w^mom%+&^_xiae25m^rc^iha-y1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["bebkoof-app.herokuapp.com"]
 
 AUTH_USER_MODEL = 'authentication.User'
 
