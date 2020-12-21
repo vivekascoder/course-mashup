@@ -34,8 +34,9 @@ INSTALLED_APPS = [
     'drf_yasg',
     'rest_framework_simplejwt.token_blacklist',
     # local-app
-    'mashup',
+    'courses',
     'authentication',
+    'user_hub',
 ]
 
 
@@ -98,7 +99,7 @@ REST_FRAMEWORK = {
 } 
 
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': datetime.timedelta(minutes=1),
+    'ACCESS_TOKEN_LIFETIME': datetime.timedelta(minutes=50),
     'REFRESH_TOKEN_LIFETIME': datetime.timedelta(days=1),
 }
 
