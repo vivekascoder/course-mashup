@@ -87,8 +87,12 @@ WSGI_APPLICATION = 'course_mash.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dftpj4b8g3id3i',
+        'HOST': 'ec2-52-203-182-92.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'kaxhdovhxqszxj',
+        'PASSWORD': '5fa17aa58f2a69cb3f8aa383978f8c84d7553b41b3a2167312e9ee0224501b57'
     }
 }
 

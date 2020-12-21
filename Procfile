@@ -1,0 +1,1 @@
+web: gunicorn course_mash.wsgi --log-file -
